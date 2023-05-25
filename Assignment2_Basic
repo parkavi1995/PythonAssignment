@@ -1,0 +1,13 @@
+filenames =['view.jpg','bear.jpg','ball.png']
+filenames.insert(0,'phone.jpg');
+filenames.remove('ball.png');
+print(filenames);
+
+--------------------------------------------------------
+
+L=[1,2,3,4,5,6,7,8,9,10]
+L.sort();
+print("The minimum value in the list is" ,L[0]);
+print("The maximum value in the list is" ,L[-1]);
+average= sum(L)/len(L);
+print("The average value of the given list is" ,average);

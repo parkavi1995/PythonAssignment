@@ -1,0 +1,13 @@
+str = input("Enter transaction log")
+netamount=0;
+type = str.split(" ");
+for i in type:    
+    if i.startswith("D"):
+        j=i.split(":");
+        netamount+=int(j[1]);
+        print("The netamount =",netamount)
+    elif i.startswith("W"):
+        j=i.split(":");
+        netamount-=int(j[1]);
+        print("The netamount =", netamount)
+
