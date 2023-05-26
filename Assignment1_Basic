@@ -1,7 +1,0 @@
-x = int(input("Enter the number"))
-if x%3==0 and x%5==0:
-    print('Fizz Buzz')
-elif x%5==0:
-    print('Fuzz')
-elif x%3==0:
-    print('Fizz')
